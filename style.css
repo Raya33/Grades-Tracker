@@ -1,0 +1,32 @@
+html{
+    
+        font-family: 'Roboto', sans-serif;
+        font-size: 48px;
+      
+}
+
+table {
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+  }
+
+  form {
+    position : relative;
+    width  : 740px;
+    height : 498px;
+    margin : 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    background : rgb(184, 137, 137) url(background.jpg);
+  
+   
+    display : grid;
+    grid-gap : 20px;
+    grid-template-columns : repeat(2, 1fr);
+    grid-template-rows    : 10em 1em 1em 1em;
+  }
